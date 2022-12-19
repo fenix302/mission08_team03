@@ -239,39 +239,42 @@
 
 
         <!-- Contact, location부분 -->
-        <div class="section2 row" id="four">
-            <div class="col-lg-6">
-                <p class="faq1">Contact</p>
-                <div class="" id="accordionFlushExample">
-                    <div class="">
-                        <h2 class="" id="flush-headingOne">
-                            <button>
-                            문의하기 전 참고사항
-                            </button>
-                        </h2>
+        <div class="section2" id="four">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <p class="faq1">Contact</p>
+                        <div class="" id="accordionFlushExample">
+                            <div class="">
+                                <h2 class="" id="flush-headingOne">
+                                    <button>
+                                    문의하기 전 참고사항
+                                    </button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <!-- 지도를 표시할 div 입니다 -->
+                        <p class="faq1">Location</p>
+                        <div class="map_box">
+                            <div id="map" style="width:100%;height: 500px;"></div>
+                            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=66ca82d13bdbacc72649b8f16cf511ed"></script>
+                            <script>
+                            var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                                mapOption = { 
+                                    center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                                    level: 3 // 지도의 확대 레벨
+                                };
+
+                            // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+                            var map = new kakao.maps.Map(mapContainer, mapOption); 
+                            </script>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <!-- 지도를 표시할 div 입니다 -->
-                <p class="faq1">Location</p>
-                <div>
-                    <div id="map" style="width:100%;height: 500px;"></div>
-                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=66ca82d13bdbacc72649b8f16cf511ed"></script>
-                    <script>
-                    var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-                        mapOption = { 
-                            center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
-                            level: 3 // 지도의 확대 레벨
-                        };
-
-                    // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-                    var map = new kakao.maps.Map(mapContainer, mapOption); 
-                    </script>
-                </div>
-            </div>
         </div>
-        
 
 
 
