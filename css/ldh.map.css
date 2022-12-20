@@ -50,6 +50,10 @@ span.sign{
     margin-left: 15px;
 }    
 
+.img-fluid{
+    width: 100%;
+    height: 450px;
+}
 
 /* 푸터 */
 footer{
