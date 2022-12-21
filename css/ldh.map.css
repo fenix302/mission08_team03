@@ -52,7 +52,16 @@ span.sign{
 
 .img-fluid{
     width: 100%;
-    height: 450px;
+    height: 350px;
+}
+
+.imgtext > p {
+    position: absolute;
+    top: 22%;
+    left: 44%;
+    font-size: 66px;
+    color: #f3f3f3;
+
 }
 
 /* 푸터 */
