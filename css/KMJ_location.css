@@ -13,7 +13,7 @@
 /* 헤더 */
 
 #header {
-   height: 100px;
+   height: 80px;
    background-color: #fff;
 }
 
@@ -68,9 +68,10 @@ a > h1 > img {
    background-color: #fff;
 }
 
-/* 콘텐츠 - 박스 */
+/* 콘텐츠 */
 #content {
    width: 100%;
+   height: 100%;
    clear: both;
 }
 
@@ -86,11 +87,11 @@ a > h1 > img {
       url('/resources/Minji/images/01.jpg');
    background-size: cover;
    background-position: 0%;
-   margin-bottom: 90px;
+   margin-bottom: 80px;
 }
 
 /* 콘텐츠 상단-네이밍 */
-p.h2 {
+.comeText {
    font-size: 40px;
    color: #fff;
    font-weight: 900;
@@ -98,91 +99,78 @@ p.h2 {
    text-align: center;
 }
 
-/* 콘텐츠 하단 */
-.fnq_box1 {
-   width: 700px;
-   height: auto;
-   margin-right: 20px;
-   display: inline;
-   float: left;
-}
-
-.fnq_box2 {
-   width: 700px;
-   height: auto;
-   margin-left: 20px;
-   margin-bottom: 80px;
-   float: right;
-}
-
-/* 질문박스 */
-.fnq {
-   max-width: 660px;
-   height: auto;
-   padding: 10px;
-   border-radius: 8px;
-   margin: 0px 0px 30px 0px;
-   box-shadow: 0 0px 10px -5px rgba(0, 0, 0, 0.3);
-}
-
-.fnq:hover {
-   max-width: 660px;
-   height: auto;
-   background-color: #a60000;
-   box-shadow: 0 0px 10px -5px rgba(0, 0, 0, 0.9);
-}
-
+/* 텍스트 */
 .text1 {
-   color: black;
+   max-width: 1000px;
+   height: 40px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   margin-left: 16px;
+   margin-right: 16px;
+}
+
+.text2 {
+   max-width: 1000px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+   margin-top: 60px;
+   margin-left: 16px;
+   margin-right: 16px;
+}
+
+
+.name {
+   display: block;
    font-size: 1.17em;
    margin-block-start: 1em;
    margin-block-end: 1em;
    margin-inline-start: 0px;
    margin-inline-end: 0px;
    font-weight: bold;
-   margin-left: 10px;
-}
-
-.text1 strong {
    color: #a60000;
 }
 
-.fnq:hover > .text1 {
-   color: #fff;
-}
-
-.fnq:hover > .text1 strong {
-   color: #cccccc;
-}
-
-p.click {
+.announce2 {
+   font-size: 11pt;
    font-weight: 400;
-   line-height: 1.6;
-   margin-top: 20px;
-   padding-left: 35px;
-   color: #505050;
-   display: none;
+   line-height: 1.7;
+   color: #333333;
+   padding-left: 15px;
+   margin: 10px 0px 20px 0px;
 }
 
-.text2 {
-   font-weight: 400;
-   line-height: 1.6;
-   margin-top: 20px;
-   padding-left: 35px;
-   color: #505050;
+.announce2 > thin {
+   font-size: 10pt;
+   color: #7c7c7c;
+   line-height: 1;
 }
 
-.text2 strong {
-   font-weight: bold;
-   color: #a60000;
+.announce2 > a {
+   color: #333333;
 }
 
-.fnq:hover > .text2 {
-   color: #fff;
+.announce {
+   font-size: 11pt;
+   font-weight: 300;
+   line-height: 1.7;
+   color: #7c7c7c;
+   padding-left: 15px;
 }
 
-.fnq:hover > .text2 strong {
-   color: #cccccc;
+/* 콘텐츠 하단 */
+.map_box {
+   max-width: 1440px;
+   margin: 0 auto;
+   height: 100%;
+}
+
+#map {
+   min-width: 240px;
+   max-width: 1000px;
+   height: 600px;
+   margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 /* 푸터 */
@@ -202,4 +190,5 @@ footer {
    font-size: 12px;
    line-height: 1.8;
    padding-top: 25px;
+   padding-left: 16px;
 }
