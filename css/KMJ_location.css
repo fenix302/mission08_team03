@@ -118,6 +118,7 @@ h2 {
    margin-right: 16px;
 }
 
+
 .name {
    display: block;
    font-size: 1.17em;
@@ -165,9 +166,11 @@ h2 {
 
 #map {
    min-width: 240px;
-   width: 1000px;
+   width: auto;
    height: 600px;
    margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 /* 푸터 */
