@@ -166,7 +166,7 @@ a > h1 > img {
 
 #map {
    min-width: 240px;
-   width: auto;
+   max-width: 1000px;
    height: 600px;
    margin: 0 auto;
    margin-top: 50px;
