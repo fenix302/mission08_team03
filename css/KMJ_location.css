@@ -13,7 +13,7 @@
 /* 헤더 */
 
 #header {
-   height: 100px;
+   height: 80px;
    background-color: #fff;
 }
 
@@ -91,7 +91,7 @@ a > h1 > img {
 }
 
 /* 콘텐츠 상단-네이밍 */
-h2 {
+.comeText {
    font-size: 40px;
    color: #fff;
    font-weight: 900;
@@ -117,6 +117,7 @@ h2 {
    margin-left: 16px;
    margin-right: 16px;
 }
+
 
 .name {
    display: block;
@@ -164,9 +165,12 @@ h2 {
 }
 
 #map {
+   min-width: 240px;
    max-width: 1000px;
    height: 600px;
    margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 /* 푸터 */
