@@ -99,13 +99,20 @@ i{
     position: relative;
     margin-top: 40px;
     width: 80vw;
-    height: auto;
+    height: 900px;
 }
 
 .bg-white{
     background-color: white;
     color: black;
 }
+
+.setSize{
+    font-size: 180%;
+    text-align: center;
+
+}
+
 
 #checkbox{
     margin: 0 auto;
