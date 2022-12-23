@@ -50,12 +50,13 @@ span.sign{
     margin-left: 15px;
 }    
 
-
+/* 메인 이미지 크기 조절 */
 .img-fluid{
     width: 100%;
     height: 350px;
 }
 
+/* 이미지 텍스트 위치 */
 .imgfile > h1{
     position: absolute;
     font-size: 70px;
@@ -65,10 +66,13 @@ span.sign{
     width: 100%;
 }
 
+/* 지도 자리 */
 .mainmap{
+    position: relative;
     margin-top: 120px;
 }
 
+/* 카드 크기 조절 */
 .submap{
     width: 70%;
     height: 700px;
@@ -81,7 +85,6 @@ span.sign{
 
 .card-group{
     margin-top: 60px;
-    position: relative;
 }
 .card-title{
     text-align: center;
@@ -94,19 +97,15 @@ span.sign{
     font-size: 17px;
 }
 
-.card-group{
-    height: 250px;
-}
 .card-img-top{
     padding-top: 20px;
     width: 50%;
     height: 50%;
 }
 
-
-
 /* 푸터 */
 footer{
+    width: 100%;
     height: 125px;
     font-size: 14px;
     background-color: black ;
